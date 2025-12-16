@@ -25,8 +25,7 @@
         <!-- Vite / Livewire styles -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         @livewireStyles
-            <link rel="icon" href="{{ asset('images/escudoudeg.ico') }}" type="image/ico">
-            <link rel="apple-touch-icon" href="{{ asset('images/favicon1.png') }}">
+            <link rel="icon" href="{{ asset('storage/images/escudoudeg.ico') }}" type="image/ico">
     </head>
     <body class="font-sans antialiased">
         <x-banner />

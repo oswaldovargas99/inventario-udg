@@ -11,13 +11,12 @@
 
     <!-- Scripts y Favicon -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <link rel="icon" href="{{ asset('images/favicon1.png') }}" type="image/png">
 </head>
 <body class="antialiased">
 
     <!-- Contenedor Principal con Fondo y Overlay -->
     <div class="relative min-h-screen bg-cover bg-center" 
-         style="background-image: url('{{ asset('images/parainfo_udg.jpg') }}')">
+         style="background-image: url('{{ asset('storage/images/parainfo_udg.jpg') }}')">
 
         <!-- Overlay oscuro para mejorar legibilidad -->
         <div class="absolute inset-0 bg-black bg-opacity-10"></div>
@@ -33,7 +32,7 @@
                 <!-- Logo y títulos -->
                 <div class="space-y-4">
                     <a href="/">
-                        <img src="{{ asset('images/favicon1.png') }}" alt="Logo VAAI" class="mx-auto h-16 w-auto">
+                        <img src="{{ asset('storage/images/favicon1.png') }}" alt="Logo VAAI" class="mx-auto h-16 w-auto">
                     </a>
 
                 </div>

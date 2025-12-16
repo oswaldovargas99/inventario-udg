@@ -11,13 +11,12 @@
 
     <!-- Scripts y Favicon -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <link rel="icon" href="{{ asset('images/favicon1.png') }}" type="image/png">
 </head>
 <body class="antialiased">
 
     <!-- Contenedor Principal con tu Imagen de Fondo -->
     <div class="relative min-h-screen bg-cover bg-center" 
-         style="background-image: url('{{ asset('images/wallpaper-cutonala.jpg') }}')">
+         style="background-image: url('{{ asset('storage/images/wallpaper-cutonala.jpg') }}')">
 
         <!-- Overlay muy sutil para mejorar contraste -->
         <div class="absolute inset-0 bg-black bg-opacity-20"></div>
@@ -31,7 +30,7 @@
                 <!-- Logo de la dependencia -->
                 <div class="mb-8 text-center">
                     <a href="/">
-                        <img src="{{ asset('images/favicon1.png') }}" alt="Logo VAAI" class="mx-auto h-20 w-auto">
+                        <img src="{{ asset('storage/images/favicon1.png') }}" alt="Logo VAAI" class="mx-auto h-20 w-auto">
                     </a>
                 </div>
 
